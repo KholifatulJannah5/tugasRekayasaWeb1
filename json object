@@ -1,0 +1,13 @@
+<?php
+$jsonobj = '{"Apel":10, "Mangga":5, "Manggis":7, "Anggur":15, "Melon":3}';
+
+$obj = json_decode($jsonobj);
+
+// mengakses nilai object
+echo $obj->Apel. "<br>";
+echo $obj->Mangga. "<br>";
+echo $obj->Manggis. "<br>";
+echo $obj->Anggur. "<br>";
+echo $obj->Melon. "<br>";
+
+?>
