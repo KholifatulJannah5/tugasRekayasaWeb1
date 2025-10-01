@@ -1,0 +1,12 @@
+<?php
+$jsonobj = '{"Apel":10, "Mangga":5, "Manggis":7, "Anggur":15, "Melon":3}';
+
+$arr = json_decode($jsonobj,true);
+
+//mengakses nilai array
+echo $arr['Apel'];
+echo $arr['Mangga'];
+echo $arr['Manggis'];
+echo $arr['Anggur'];
+echo $arr['Melon'];
+?>
